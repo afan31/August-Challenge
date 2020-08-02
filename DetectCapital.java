@@ -23,11 +23,11 @@ class Solution {
   }
   
   boolean checkForUppercase(char a){
-      int asciiVal = (int)a;
-      // check for ascii range of capital characters
-      if (asciiVal >= 65 && asciiVal <= 90){
-          return true;
-      }
-      return false;
+    int asciiVal = (int)a;
+    // check for ascii range of capital characters
+    if (asciiVal >= 65 && asciiVal <= 90){
+      return true;
+    }
+    return false;
   }
 }
